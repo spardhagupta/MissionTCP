@@ -13,9 +13,9 @@ Instructions for Execution:
 5. After execution is finished, check the log files in 'Supplemental Text Files' to check results. For example, communication between Ann and Jan could be observed in 'AnnJanLog.txt' in Ann's perspective. Additionally, each packet's trace through the routers can be observed in the terminal window that ran 'router.py.'
 
 Assumptions Made:
-1.Requirements on retransmission on packet loss was not clear. Consequently, that is not implemented.
+1. Requirements on retransmission on packet loss was not clear. Consequently, that is not implemented.
 2. After the routers are kicked off, it is assumed that they will always be running, since there is no requirement that specifies the termination of them.
-3. It was assumed that Jan talks to Ann, Ann talks to Chan, and Chan talks to Jan.
-4. Scripts have to be run in the order 'jan.py,' 'chan.py,' and 'ann.py.'
-5. The costs of communication among routers never change.
-6. Mission 3 starts right after Chan gets terminated.
+3.  It was assumed that Jan talks to Ann, Ann talks to Chan, and Chan talks to Jan.
+4.  Scripts have to be run in the order 'jan.py,' 'chan.py,' and 'ann.py.'
+5.  The costs of communication among routers never change.
+6.  Mission 3 starts right after Chan gets terminated.
